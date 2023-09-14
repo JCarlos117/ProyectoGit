@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>SuperMarket: tienda online</title>
+
+</head>
+
+<body>
+    <nav>
+        <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_menu.svg"
+            alt="Menu" class="menu">
+
+        <div class="navbar-left">
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/logotipo-supermercado_23-2148459011.jpg"
+                alt="logo" class="logo">
+
+            <ul>
+                <li>
+                    <a href="">Todos</a>
+                </li>
+
+                <li>
+                    <a href="">Enlatados</a>
+                </li>
+
+                <li>
+                    <a href="">Lácteos</a>
+                </li>
+
+                <li>
+                    <a href="">Embutidos</a>
+                </li>
+
+                <li>
+                    <a href="">Frutas/Verduras</a>
+                </li>
+
+                <li>
+                    <a href="">Bebidas</a>
+                </li>
+
+                <li>
+                    <a href="">Cereales/Granos</a>
+                </li>
+
+                <li>
+                    <a href="">Snacks/Dulces</a>
+                </li>
+
+                <li>
+                    <a href="">Limpieza</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <ul>
+                <li class="navbar-email">valeria.preciado@gamil.com</li>
+                <li class="navbar-shopping-cart">
+                    <img src="https://th.bing.com/th/id/OIP.9F9KJ6YmI6iM3e-amwbSFQHaHa?pid=ImgDet&w=189&h=189&c=7"
+                        alt="shopping cart">
+                    <div>2</div>
+                </li>
+            </ul>
+        </div>
+        <div class="desktop-menu inactive">
+            <ul>
+                <li>
+                    <a href="/" class="title">Mis pedidos</a>
+                </li>
+
+                <li>
+                    <a href="/">Mi cuenta</a>
+                </li>
+
+                <li>
+                    <a href="/">Cerrar sesión</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu inactive">
+            <ul>
+                <li>
+                    <a href="">CATEGORÍAS</a>
+                </li>
+
+                <li>
+                    <a href="">Todos</a>
+                </li>
+
+                <li>
+                    <a href="">Alimentos enlatados</a>
+                </li>
+
+                <li>
+                    <a href="">Productos lácteos</a>
+                </li>
+
+                <li>
+                    <a href="">Embutidos</a>
+                </li>
+
+                <li>
+                    <a href="">Frutas y Verduras</a>
+                </li>
+
+                <li>
+                    <a href="">Bebidas</a>
+                </li>
+
+                <li>
+                    <a href="">Cereales y Granos</a>
+                </li>
+
+                <li>
+                    <a href="">Snacks y Dulces</a>
+                </li>
+
+                <li>
+                    <a href="">Productos de limpieza</a>
+                </li>
+
+                <li>
+                    <a href="">Artículos de cuidado personal</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="">Mis pedidos</a>
+                </li>
+                <li>
+                    <a href="">Mi cuenta</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="" class="email">valeria.preciado@gmail.com</a>
+                </li>
+                <li>
+                    <a href="" class="sing-out">Cerrar Sesión</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <aside  id="shoppingCartContainer" class="inactive">
+        <div class="title-container">
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/flechita.svg"
+                alt="">
+            <p class="title"> Mi orden</p>
+        </div>
+        <div class="my-order-content">
+        </div>
+
+        <div class="shopping-cart">
+            <figure>
+                <img src="https://d50xhnwqnrbqk.cloudfront.net/images/products/large/7501020548495.jpg"
+                    alt="Leche LALA 100" />
+            </figure>
+            <p>Leche LALA 100</p>
+            <p>$35.00</p>
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="cerrar">
+        </div>
+
+        <div class="shopping-cart">
+            <figure>
+                <img src="https://onixsuper.com/wp-content/uploads/2020/08/7501000112784-1.jpg" alt="Nito" />
+            </figure>
+            <p>Nito</p>
+            <p>$15.00</p>
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="cerrar">
+        </div>
+        <div class="shopping-cart">
+            <figure>
+                <img src="https://th.bing.com/th/id/R.5089d467fd0d66542ef3078fef548464?rik=YFE0qQDpnvNhzg&pid=ImgRaw&r=0"
+                    alt="Mantecadas Nuez" />
+            </figure>
+            <p>Mantecadas con Nuez</p>
+            <p>$30.00</p>
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="cerrar">
+        </div>
+
+        <div class="shopping-cart">
+            <figure>
+                <img src="https://th.bing.com/th/id/R.dc444615da8c244f49633c52ce5bbf93?rik=3Akc3lKPLak3rQ&pid=ImgRaw&r=0"
+                    alt="Fanta 500ml" />
+            </figure>
+            <p>Fanta</p>
+            <p>$18.00</p>
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="cerrar">
+        </div>
+
+        <div class="shopping-cart">
+            <figure>
+                <img src="https://th.bing.com/th/id/R.18bd7660feb4c55bd0ea43afe9163f1d?rik=sfZltm0dJqPzXQ&pid=ImgRaw&r=0"
+                    alt="Coca-Cola" />
+            </figure>
+            <p>Coca-Cola</p>
+            <p>$19.00</p>
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="cerrar">
+        </div>
+
+        <div class="shopping-cart">
+            <figure>
+                <img src="https://th.bing.com/th/id/OIP.XyhseNfmf0Pghie7-prVewHaHa?pid=ImgDet&rs=1"
+                    alt="Electrolit-Coco" />
+            </figure>
+            <p>Electrolit-Coco</p>
+            <p>$21.00</p>
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="cerrar">
+        </div>
+
+        <div class="shopping-cart">
+            <figure>
+                <img src="https://dashboard.parii.app/vistas/img/multimedia/powerade-azul-600ml/poerade%20azul.png"
+                    alt="Powerade-Azul" />
+            </figure>
+            <p>Powerade-Azul</p>
+            <p>$20.00</p>
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="cerrar">
+        </div>
+
+        <div class="order">
+            <p>
+                <span>Total</span>
+
+            </p>
+            <p>$158.00</p>
+        </div>
+        <button class="primary-button add-to-cart-button">
+            Pagar
+        </button>
+        </div>
+    </aside>
+
+    <aside id="productDetail" class="inactive">
+        <div class="product-detail-close">
+            <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/icon_close.png"
+                alt="close">
+        </div>
+        <img src="https://supermas.cdn1.dattamax.com/userfiles/images/productos/448/15646.png" alt="Coca-Cola">
+        <div class="product-info">
+            <p>$19.00</p>
+            <p>Coca-Cola sin Azucar 600ml</p>
+            <p>¡Descubre la increíble Coca-Cola sin azúcar de 600 ml,
+                la opción perfecta para disfrutar de tu refresco favorito
+                sin preocuparte por el azúcar! Conviértete en el protagonista
+                de una experiencia refrescante y baja en calorías con esta bebida
+                icónica de Coca-Cola Company, ahora disponible en un práctico
+                envase de 600 ml.</p>
+            <button class="primary-button add-to-cart-button">
+                <img src="./curso-frontend-developer-practico-main (1)/curso-frontend-developer-practico-main/icons/cart-icon-3-500x500.png"
+                    alt="add to cart">
+                Añadir al carrito
+            </button>
+        </div>
+    </aside>
+
+    <section class="main-container">
+        <div class="card-container">
+
+            <!--div class="product-card">
+                <img src="https://d50xhnwqnrbqk.cloudfront.net/images/products/large/7501020548495.jpg"
+                    alt="Leche LALA 100" class="product-img">
+                <div class="product-info">
+                    <div>
+                        <p>Leche LALA 100</p>
+                        <p>$35.00</p>
+                    </div>
+                    <figure>
+                        <img src="https://static.vecteezy.com/system/resources/previews/000/437/871/non_2x/vector-add-to-cart-vector-icon.jpg"
+                            alt="">
+                    </figure>
+                </div>
+            </div-->
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
